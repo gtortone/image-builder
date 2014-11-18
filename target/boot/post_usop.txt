@@ -1,0 +1,6 @@
+##Disable HDMI
+cape_disable=capemgr.disable_partno=BB-BONELT-HDMI,BB-BONELT-HDMIN
+
+##Enable I2C1 (in hardware I2C2), SPIDEV0, SPIDEV1, ADC
+cape_enable=capemgr.enable_partno=BB-I2C1,BB-SPIDEV1,BB-UART1,BB-ADC
+
